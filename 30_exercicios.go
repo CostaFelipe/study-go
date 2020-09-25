@@ -12,11 +12,11 @@ type Contatos struct {
      ContatoId int
 }
 
-func (u *User) login() string{
+func (u *User) Login() string{
         return fmt.Sprintf("Nome %s & email %s", u.Nome, u.Email)
 }
 
 func main() {
 	p := Contatos{User{Nome: "Linda", Email: "linda@gmail.com"}, 11111}
-	fmt.Println(p.login())
+	fmt.Println(p.Login())
 }
