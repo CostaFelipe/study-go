@@ -18,5 +18,5 @@ func calc(a1, a2 float64, unit ... string) float64 {
 }
 
 func main() {
-  fmt.Println("valor:", calc(1,2, "DIV"))
+  fmt.Println("valor:", calc(1,2, ""))
 }
