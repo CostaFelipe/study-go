@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-  a = iota * 10
+  a = iota
   b
   c
 )
