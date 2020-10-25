@@ -8,4 +8,7 @@ func main()  {
       fmt.Println(x)
     }
   }
+  for j := 10; j > 0; j-- {
+    fmt.Println(j)
+  }
 }
