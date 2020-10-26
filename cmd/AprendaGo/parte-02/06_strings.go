@@ -8,6 +8,8 @@ func main()  {
   fmt.Printf("%v , %T\n", s, s)
   fmt.Printf("%v, %T\n", sb, sb)
 
+  fmt.Println("\n")
+
   for _, v := range sb {
     fmt.Printf("%v - %#U - %#X\n", v, v, v)
   }
