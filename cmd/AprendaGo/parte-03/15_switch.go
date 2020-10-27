@@ -13,4 +13,11 @@ func main() {
       fmt.Println("numero dez ou cinco")
   }
 
+  y := 3
+
+  switch y {
+      case 3:
+        fmt.Println(y)
+  }
+
 }
