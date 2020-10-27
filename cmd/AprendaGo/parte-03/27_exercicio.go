@@ -16,5 +16,5 @@ func main()  {
     default:
       fmt.Println("Esse esporte não está na lista")
     }
-    
+
 }
