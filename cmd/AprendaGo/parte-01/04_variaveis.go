@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-var y = 2
+var x = 2
 
 func main() {
-    qualquercoisa(y)
+  qualquercoisa(x)
 }
 
-func qualquercoisa(x int) {
+func qualquercoisa(y int) {
   fmt.Println(y)
-  fmt.Printf("%v, %T",x, x)
+  fmt.Printf("%v, %T", y, y)
 }
